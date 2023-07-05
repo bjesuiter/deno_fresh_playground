@@ -31,3 +31,10 @@ with
     "$fresh/": "https://github.com/marvinhagemeister/fresh/raw/async_server_components/",
   }
 ```
+
+### Useful Fresh URls for testing
+
+(Replace the branch name at the end with the branch you want to try)
+
+- Fresh Repo/main Branch: https://github.com/denoland/fresh/raw/main/
+- Marvinhagemeister/main Branch: https://github.com/marvinhagemeister/fresh/raw/main/
