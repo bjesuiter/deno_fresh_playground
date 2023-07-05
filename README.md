@@ -32,6 +32,11 @@ with
   }
 ```
 
+### Important: Refresh Dependencies when linking directly to git!
+
+Run `deno task recache` to delete the old deno.lock file and generate a new one with the newest dependencies available in git!
+This is needed, because `deno cache --reload` would fail with an error, when the file hashes in git have been changed to the previous time the lockfile has been generated!
+
 ### Useful Fresh URls for testing
 
 (Replace the branch name at the end with the branch you want to try)
