@@ -6,7 +6,7 @@ import * as $0 from "./routes/[name].tsx";
 import * as $1 from "./routes/api/joke.ts";
 import * as $2 from "./routes/columns-demo.tsx";
 import * as $3 from "./routes/index.tsx";
-import * as $4 from "./routes/pokemon-async.tsx";
+import * as $4 from "./routes/pokelist-async.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -15,7 +15,7 @@ const manifest = {
     "./routes/api/joke.ts": $1,
     "./routes/columns-demo.tsx": $2,
     "./routes/index.tsx": $3,
-    "./routes/pokemon-async.tsx": $4,
+    "./routes/pokelist-async.tsx": $4,
   },
   islands: {
     "./islands/Counter.tsx": $$0,

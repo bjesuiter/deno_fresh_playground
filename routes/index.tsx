@@ -21,7 +21,7 @@ export default function Home() {
 						</a>
 					</li>
 					<li>
-						<a class="text-blue-500 underline" href="./pokemon-async">
+						<a class="text-blue-500 underline" href="./pokelist-async">
 							Pokemon (Async Page Component Test)
 						</a>
 					</li>
