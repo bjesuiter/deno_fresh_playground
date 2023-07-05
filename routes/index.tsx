@@ -20,6 +20,11 @@ export default function Home() {
 							Columns-Demo
 						</a>
 					</li>
+					<li>
+						<a class="text-blue-500 underline" href="./pokemon-async">
+							Pokemon (Async Page Component Test)
+						</a>
+					</li>
 				</ul>
 			</div>
 		</>
