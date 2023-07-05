@@ -8,7 +8,7 @@ export function PokeList({entries}: {entries: Pokemon[]}) {
 	return (
 		<>
 			{/* Tailwind works here though! */}
-			<h2 class="text-4xl">PokeList</h2>
+			<h2 class="text-4xl">PokéList</h2>
 			<ul class="my-8 w-56">
 				{entries.map(poke => (
 					<li class="relative m-4 p-6 shadow-xl text-center border-2 border-gray-400 rounded">
