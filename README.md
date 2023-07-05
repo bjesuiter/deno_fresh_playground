@@ -28,6 +28,6 @@ with
 
 ```json
   "imports": {
-    "$fresh/": "https://github.com/marvinhagemeister/fresh/tree/async_server_components/",
+    "$fresh/": "https://github.com/marvinhagemeister/fresh/raw/async_server_components/",
   }
 ```
