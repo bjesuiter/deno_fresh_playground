@@ -7,7 +7,7 @@
     "jsxImportSource": "preact"
   },
   "imports": {
-    "$fresh/": "https://deno.land/x/fresh@1.2.0/",
+    "$fresh/": "https://github.com/marvinhagemeister/fresh/raw/async_server_components/",
     "preact": "https://esm.sh/preact@10.15.1",
     "preact/": "https://esm.sh/preact@10.15.1/",
     "preact-render-to-string": "https://esm.sh/*preact-render-to-string@6.1.0",
