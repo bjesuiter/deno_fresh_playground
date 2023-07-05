@@ -31,7 +31,7 @@ export default async function AsyncPagePoc(req: Request, ctx: HandlerContext) {
 	const pokeListWithImages = await Promise.all(pokeListWithImagesAsync);
 
 	return (
-		<div class="my-8 px-8 border-0 border-gray-400 rounded w-1/3 mx-auto">
+		<div class="m-8 px-8 border-0 border-gray-400 rounded w-3/4">
 			{/* Tailwind seems not to work here, for some reason */}
 			{/* Also tried class={tw`text-5xl`} */}
 			{/* <h1 class="text-5xl text-teal-500">Async Page Test</h1> */}
