@@ -3,12 +3,22 @@ import {Head} from '$fresh/runtime.ts';
 export default function Home() {
 	return (
 		<>
-			
 			<div class="p-4 mx-auto max-w-screen-md">
-				<h1 class="text-4xl font-bold">Playground Experiments</h1>
-				<ul>
+				<h1 class="text-4xl font-bold">
+					Deno Fresh Playground by &nbsp;
+					<a
+						class="text-blue-500 underline"
+						target="_blank"
+						href="https://github.com/bjesuiter/deno_fresh_playground"
+					>
+						bjesuiter
+					</a>
+				</h1>
+				<ul class="my-5">
 					<li>
-						<a href="./columns-demo">Columns-Demo</a>
+						<a class="text-blue-500 underline" href="./columns-demo">
+							Columns-Demo
+						</a>
 					</li>
 				</ul>
 			</div>
