@@ -30,12 +30,12 @@ export default async function AsyncPagePoc(req: Request, ctx: HandlerContext) {
 	const pokeListWithImages = await Promise.all(pokeListWithImagesAsync);
 
 	return (
-		<>
+		<div class="max-w-80 mx-auto">
 			{/* Tailwind seems not to work here, for some reason */}
 			{/* Also tried class={tw`text-5xl`} */}
 			<h1 class="text-5xl text-red-500">Async Page Test</h1>
 			<PokeList entries={pokeListWithImages}></PokeList>
 			{/* <pre>{JSON.stringify(jsObj, null, '\t')}</pre> */}
-		</>
+		</div>
 	);
 }
