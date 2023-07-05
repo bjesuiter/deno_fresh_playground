@@ -1,5 +1,6 @@
 import {HandlerContext} from '$fresh/server.ts';
 import {PokeList, Pokemon} from '../components/PokeList.tsx';
+import Counter from '../islands/Counter.tsx';
 
 /**
  *
@@ -34,6 +35,8 @@ export default async function AsyncPagePoc(req: Request, ctx: HandlerContext) {
 			{/* Tailwind seems not to work here, for some reason */}
 			{/* Also tried class={tw`text-5xl`} */}
 			<h1 class="text-5xl text-red-500">Async Page Test</h1>
+
+			<Counter start={4}></Counter>
 			<PokeList entries={pokeListWithImages}></PokeList>
 			{/* <pre>{JSON.stringify(jsObj, null, '\t')}</pre> */}
 		</div>
