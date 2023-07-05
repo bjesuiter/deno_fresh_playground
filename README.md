@@ -28,7 +28,7 @@ with
 
 ```json
   "imports": {
-    "$fresh/": "https://github.com/marvinhagemeister/fresh/raw/async_server_components/",
+    "$fresh/": "https://raw.githubusercontent.com/marvinhagemeister/fresh/async_server_components/",
   }
 ```
 
@@ -41,5 +41,5 @@ This is needed, because `deno cache --reload` would fail with an error, when the
 
 (Replace the branch name at the end with the branch you want to try)
 
-- Fresh Repo/main Branch: https://github.com/denoland/fresh/raw/main/
-- Marvinhagemeister/main Branch: https://github.com/marvinhagemeister/fresh/raw/main/
+- Fresh Repo/main Branch: https://raw.githubusercontent.com/denoland/fresh/main/
+- Marvinhagemeister/main Branch: https://raw.githubusercontent.com/marvinhagemeister/fresh/main/
