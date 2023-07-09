@@ -1,6 +1,7 @@
 {
   "tasks": {
     "start": "deno run -A --watch=static/,routes/ dev.ts",
+    "start-r": "deno run -A -r --watch=static/,routes/ dev.ts",
     "cache": "deno cache --reload main.ts dev.ts",
     "recache": "rm -f deno.lock && deno task cache"
   },
